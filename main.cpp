@@ -1,4 +1,5 @@
 #include "mbed.h"
+#include "ADXL343.h"
 #include "L3G4200D.h"
 #include "MPL115A2.h"
 
@@ -18,7 +19,7 @@ int main() {
 
   p_sensor.begin();
 
-  pc.printf("\n\n\nHello World!\n\n");
+  pc.printf("\nHello World!");
 
   int g[3];
 
